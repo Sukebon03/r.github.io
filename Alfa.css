@@ -1,0 +1,617 @@
+
+
+p{
+  text-align: center;
+  font-family: "Kokoro";
+  font-size: large;
+  color: black;
+}
+#circle1{
+    display: inline-block;
+    font-family: "Kokoro";
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align:center;
+    font-size: larger;
+    color: black;
+    line-height: 80px;
+    border: 0ch;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    animation: fadeInAnime 1s ease-in 1 forwards, 
+    moveOnAnime1 2s ease-out infinite forwards;
+    transition: 1s;
+  } 
+    @keyframes fadeInAnime{
+      0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes moveOnAnime1{
+        0%{
+            top: 0px;
+        }
+        50%{
+            top: 60px;
+        }
+        100%{
+            top: 0px;
+        }
+      }
+      #circle2{
+        display: inline-block;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 80px;
+        border: 0ch;
+        color: black;
+        position: relative;
+        top: 250px;
+        left: 20px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime2 2s ease-out infinite forwards 0.4s;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime2{
+        0%{
+            top: 250px;
+        }
+        50%{
+            top: 190px;
+        }
+        100%{
+            top: 250px;
+        }
+      }
+
+      #circle3{
+        display: inline-block;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 80px;
+        border: 0ch;
+        position: relative;
+        color: black;
+        top: 100px;
+        left: 20px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime3 2s ease-out infinite forwards 0.8s;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime3{
+        0%{
+            top: 100px;
+        }
+        50%{
+            top: 40px;
+        }
+        100%{
+            top: 100px;
+        }
+      }
+
+      #circle4{
+        display: inline-block;
+        color: black;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 80px;
+        border: 0ch;
+        position: relative;
+        left:-80px;
+        top: 350px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime4 2s ease-out infinite forwards;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime4{
+        0%{
+            top: 350px;
+        }
+        50%{
+            top: 410px;
+        }
+        100%{
+            top: 350px;
+        }
+      }
+
+      #circle5{
+        display: inline-block;
+        color: black;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 10px;
+        border: 0ch;
+        position: relative;
+        top: 100px;
+        left: 10px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime5 2s ease-out infinite forwards 0.4s;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime5{
+        0%{
+            top: 100px;
+        }
+        50%{
+            top: 160px;
+        }
+        100%{
+            top: 100px;
+        }
+      }
+
+      #circle6{
+        display: inline-block;
+        color: black;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 80px;
+        border: 0ch;
+        position: relative;
+        top: 250px;
+        left: 40px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime6 2s ease-out infinite forwards 0.8s;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime6{
+        0%{
+            top: 250px;
+        }
+        50%{
+            top: 310px;
+        }
+        100%{
+            top: 250px;
+        }
+      }
+
+      #circle7{
+        display: inline-block;
+        color: black;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 80px;
+        border: 0ch;
+        position: relative;
+        top: 500px;
+        left: 50px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime7 2s ease-out infinite forwards ;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime7{
+        0%{
+            top: 500px;
+        }
+        50%{
+            top: 440px;
+        }
+        100%{
+            top: 500px;
+        }
+      }
+
+      #circle8{
+        display: inline-block;
+        color: black;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 80px;
+        border: 0ch;
+        position: relative;
+        top: 460px;
+        left: 80px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime8 2s ease-out infinite forwards 0.4s;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime8{
+        0%{
+            top: 460px;
+        }
+        50%{
+            top: 400px;
+        }
+        100%{
+            top: 460px;
+        }
+      }
+
+      #circle9{
+        display: inline-block;
+        color: black;
+        font-family: "Kokoro";
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align:center;
+        font-size: larger;
+        line-height: 80px;
+        border: 0ch;
+        position: relative;
+        top: 400px;
+        left: 100px;
+        animation: fadeInAnime 1s ease-in 1 forwards, 
+        moveOnAnime9 2s ease-out infinite forwards 0.8s;
+        transition: 1s;
+      } 
+
+      @keyframes moveOnAnime9{
+        0%{
+            top: 400px;
+        }
+        50%{
+            top: 460px;
+        }
+        100%{
+            top: 400px;
+        }
+      }
+
+      #fin{
+        appearance: none;
+        color: black;
+        border: 0;
+        background-color:transparent;
+        font-size: large;
+        font-family: "Kokoro";
+        display: none;
+        text-align: center;
+        transition: 1s;
+        opacity:0%;
+        animation: appear 1s ease-in 1 forwards 1s;
+         }
+         @keyframes appear{
+          0%{
+              opacity: 0%;
+          }
+          100%{
+              opacity: 100%;
+          }
+        }
+
+        @media screen and (max-width:480px) {
+          p{
+            text-align: center;
+            font-family: "Kokoro";
+            font-size: smaller;
+            color: black;
+          }
+          #circle1{
+            display: inline-block;
+            color: black;
+            font-family: "Kokoro";
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align:center;
+            font-size: 10px;
+            line-height: 80px;
+            border: 0ch;
+            position: relative;
+            top: 50px;
+            left: 0px;
+            animation: fadeInAnime 1s ease-in 1 forwards, 
+            moveOnAnime1 2s ease-out infinite forwards;
+            transition: 1s;
+          } 
+            @keyframes moveOnAnime1{
+                0%{
+                    top: 50px;
+                }
+                50%{
+                    top: 30px;
+                }
+                100%{
+                    top: 50px;
+                }
+              }
+              #circle2{
+                display: inline-block;
+                color: black;
+                font-family: "Kokoro";
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                top: 0px;
+                left: 20px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime2 2s ease-out infinite forwards 0.4s;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime2{
+                0%{
+                    top: 0px;
+                }
+                50%{
+                    top: 20px;
+                }
+                100%{
+                    top: 0px;
+                }
+              }
+              #circle3{
+                display: inline-block;
+                color: black;
+                font-family: "Kokoro";
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                top: 20px;
+                left: 20px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime3 2s ease-out infinite forwards 0.8s;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime3{
+                0%{
+                    top: 20px;
+                }
+                50%{
+                    top: 40px;
+                }
+                100%{
+                    top: 20px;
+                }
+              }
+
+              #circle4{
+                display: inline-block;
+                color: black;
+                font-family: "Kokoro";
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                left:0px;
+                top: 120px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime4 2s ease-out infinite forwards;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime4{
+                0%{
+                    top: 120px;
+                }
+                50%{
+                    top: 100px;
+                }
+                100%{
+                    top: 120px;
+                }
+              }
+              #circle5{
+                display: inline-block;
+                font-family: "Kokoro";
+                color: black;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                top: 80px;
+                left: 20px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime5 2s ease-out infinite forwards 0.4s;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime5{
+                0%{
+                    top: 80px;
+                }
+                50%{
+                    top: 50px;
+                }
+                100%{
+                    top: 80px;
+                }
+              }
+              #circle6{
+                display: inline-block;
+                color: black;
+                font-family: "Kokoro";
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                top: 100px;
+                left: 20px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime6 2s ease-out infinite forwards 0.8s;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime6{
+                0%{
+                    top: 100px;
+                }
+                50%{
+                    top: 120px;
+                }
+                100%{
+                    top: 100px;
+                }
+              }
+              #circle7{
+                display: inline-block;
+                color: black;
+                font-family: "Kokoro";
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                top: 150px;
+                left: 20px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime7 2s ease-out infinite forwards ;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime7{
+                0%{
+                    top: 150px;
+                }
+                50%{
+                    top: 130px;
+                }
+                100%{
+                    top: 150px;
+                }
+              }
+
+              #circle8{
+                display: inline-block;
+                color: black;
+                font-family: "Kokoro";
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                top: 80px;
+                left: 20px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime8 2s ease-out infinite forwards 0.4s;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime8{
+                0%{
+                    top: 80px;
+                }
+                50%{
+                    top: 100px;
+                }
+                100%{
+                    top: 80px;
+                }
+              }
+        
+              #circle9{
+                display: inline-block;
+                color: black;
+                font-family: "Kokoro";
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align:center;
+                font-size: 10px;
+                line-height: 80px;
+                border: 0ch;
+                position: relative;
+                top: 200px;
+                left: 20px;
+                animation: fadeInAnime 1s ease-in 1 forwards, 
+                moveOnAnime9 2s ease-out infinite forwards 0.8s;
+                transition: 1s;
+              } 
+        
+              @keyframes moveOnAnime9{
+                0%{
+                    top: 200px;
+                }
+                50%{
+                    top: 180px;
+                }
+                100%{
+                    top: 200px;
+                }
+              }
+              #fin{
+                appearance: none;
+                border: 0;
+                color: black;
+                background-color:transparent;
+                font-size: smaller;
+                font-family: "Kokoro";
+                display: none;
+                text-align: center;
+                transition: 1s;
+                opacity:0%;
+                animation: appear 1s ease-in 1 forwards 1s;
+                 }
+                 @keyframes appear{
+                  0%{
+                      opacity: 0%;
+                  }
+                  100%{
+                      opacity: 100%;
+                  }
+                }
+        }

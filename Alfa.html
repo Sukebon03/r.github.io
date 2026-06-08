@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>memories</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="Alfa.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+    <script type="text/javascript" src="random.js"></script>
+  </head>
+  <body>
+    <div style="padding: 15px">
+      <p id="clickme">CLICK CIRCLE</p>
+      <button id = "fin" type="button" onclick="start(0)">FINISH</button>
+        <script>
+          var a = Math.floor(Math.random()*7)
+          while(a<1){
+            a = Math.floor(Math.random()*7)
+          }
+          var b = Math.floor(Math.random()*15)
+          while(b<1){
+            b = Math.floor(Math.random()*15)
+          }
+          var c = Math.floor(Math.random()*6)
+          while(c<1){
+            c = Math.floor(Math.random()*6)
+          }
+          question(a,b,c);
+          colorSelect();
+          </script>
+       
+</div>  
+</body> 
+</html>

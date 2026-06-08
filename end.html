@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>momories</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="end.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+    <script type="text/javascript" src="random.js"></script>
+  </head>
+  <body>
+    <div id ="back">
+      <canvas id="canvas"></canvas>
+      <script>circles()</script>
+    </div>
+    <div style="padding: 15px">
+    <div id = "wrapper">
+      <script>
+        var query = location.search;
+        var value = query.split('=');
+        value = decodeURIComponent(value[1]);
+        document.write('<p class="fadeIn">'+value+'</p>');
+
+      </script>
+  <div align="center" class ="start-button">
+      <button type="button" onclick="start()">REBORN</button>
+  </div>
+    </div>
+</div>  
+</body> 
+</html>

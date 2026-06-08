@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    }
+
+  p {
+    font-family: "Kokoro";
+    color: black;
+    font-size: 500%;
+    color: black;
+    text-align: center;
+  }
+  html,body{
+    height: 100%;/*高さを100%にして描画エリアをとる*/
+  }
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-fill-mode:backwards;
+  animation-duration:3s;
+  animation-iteration-count:1;
+  animation-timing-function:ease-out;
+  animation-delay: 0.2s;
+  animation-direction:normal;
+  }
+  
+  @keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  button{
+ appearance: none;
+ border: 0;
+ background-color:transparent;
+ font-size: 300%;
+ font-family: "Kokoro";
+ color: black;
+  }
+
+.start-button{
+  animation-name: fadeAnime;
+  animation-fill-mode: backwards;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 3s;
+  animation-direction: normal;
+}
+@keyframes fadeAnime{
+  0% {
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+#back{
+  position:fixed;
+  z-index:-1;
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+#wrapper{
+  position: relative;
+  z-index: 1;
+  width:100%;
+  height: 100%;
+}
+
+@media screen and (max-width:480px) {
+  p {
+    font-family: "Kokoro";
+    font-size: 150%;
+    color: black;
+    text-align: center;
+  }
+  button{
+    appearance: none;
+    border: 0;
+    background-color:transparent;
+    font-size: 100%;
+    font-family: "Kokoro";
+    text-align: center;
+    color: black;
+     }
+}
